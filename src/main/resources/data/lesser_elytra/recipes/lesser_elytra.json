@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yzy",
+    "x x",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    },
+    "z": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "lesser_elytra:lesser_elytra"
+  }
+}

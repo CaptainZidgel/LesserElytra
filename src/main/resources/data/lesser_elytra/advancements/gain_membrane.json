@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "achievement.lesser_elytra.getMembrane"
+    },
+    "description": {
+      "translate": "achievement.lesser_elytra.getMembrane.desc"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "trigger_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["lesser_elytra:lesser_elytra"]
+  }
+}
